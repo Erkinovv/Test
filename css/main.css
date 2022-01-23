@@ -1,0 +1,108 @@
+.header {
+  background: #2A8086;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 100px;
+}
+
+.menu__link {
+  font-family: 'Roboto Mono',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #C5E1E6;
+  margin-right: 20px;
+}
+
+.menu__link:hover {
+  border-bottom: 3px solid #C5E1E6;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+.reg-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reg-menu .reg-menu__btn {
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+  color: white;
+  margin-right: 10px;
+}
+
+.reg-menu .reg-menu__item {
+  margin-right: 10px;
+}
+
+.reg-menu .reg-menu__link {
+  font-family: 'Roboto Mono',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #C5E1E6;
+  border: 1px solid #C5E1E6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
+
+.reg-menu .reg-menu__link:hover {
+  border: 3px solid #C5E1E6;
+  padding: 5px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */
